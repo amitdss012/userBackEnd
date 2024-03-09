@@ -1,6 +1,6 @@
 import expres from 'express'
 import { Register } from '../controllers/user.js'
-import { login } from '../controllers/Login.js';
+import {login} from "../controllers/Login.js"
 import { logOut } from '../controllers/logOut.js';
 
 const userRouter = expres.Router()
